@@ -105,17 +105,17 @@ const GameScreen = ({
             {playerCount} players · {spyCount} {spyCount === 1 ? "spy" : "spies"}
           </p>
 
-          <div className="bg-card rounded-2xl p-6 card-glow mb-8 max-w-sm mx-auto">
-            <p className="text-muted-foreground text-sm uppercase tracking-wider mb-2">
-              The Location Is
-            </p>
-            <p className="font-display text-2xl font-bold text-primary">
-              {gameData.location}
-            </p>
-            <p className="text-muted-foreground text-sm mt-2">
+          //<div className="bg-card rounded-2xl p-6 card-glow mb-8 max-w-sm mx-auto">
+          //  <p className="text-muted-foreground text-sm uppercase tracking-wider mb-2">
+          //    The Location Is
+          //  </p>
+          //  <p className="font-display text-2xl font-bold text-primary">
+          //    {gameData.location}
+          //  </p>
+          //  <p className="text-muted-foreground text-sm mt-2">
               (Don't show this to the spies!)
-            </p>
-          </div>
+          //  </p>
+          //</div>
 
           <div className="flex gap-4 justify-center">
             <Button
