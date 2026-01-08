@@ -86,7 +86,7 @@ const RoleCard = ({
               exit={{ rotateY: 180, opacity: 0 }}
               transition={{ duration: 0.5 }}
               className={`rounded-3xl p-8 card-glow min-h-[400px] flex flex-col items-center justify-center ${
-                isSpy ? "spy-gradient" : "bg-card"
+                isSpy ? "bg-card" : "bg-card"
               }`}
             >
               {isSpy ? (
